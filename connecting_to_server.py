@@ -10,14 +10,14 @@ except socket.error as err:
 port = 80
 
 try:
-    host_ip = socket.gethostbyname("www.google.co.in")
+    host_ip = socket.gethostbyname("www.amreshgiri.xyz")
 except socket.gaierror:
     print("There was an error resolving the host")
     sys.exit()
 
 s.connect((host_ip, port))
 
-print("The socket has successfully connected to google.co.in on port {}".format(host_ip))
+print("The socket has successfully connected to amreshgiri.xyz on port {}".format(host_ip))
 
 
 
