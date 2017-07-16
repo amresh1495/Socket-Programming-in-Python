@@ -15,11 +15,11 @@ port = 12345
 # coming from other computers on the network
 
 s.bind(('', port))
-print("socket bound to {}".format(port))
+print("Socket bound to {}".format(port))
 
 # put the socket into listening mode
 s.listen(5)
-print("socket is listening")
+print("Socket is listening")
 
 # a forever loop until we interrupt it or an error occurs
 while True:
