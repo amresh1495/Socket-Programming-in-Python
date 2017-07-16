@@ -14,7 +14,6 @@ port = 12345
 # this makes the server listen to requests
 # coming from other computers on the network
 
-
 s.bind(('', port))
 print("socket bound to {}".format(port))
 
